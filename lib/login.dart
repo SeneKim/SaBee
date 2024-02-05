@@ -1,32 +1,32 @@
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:shared_preferences/shared_preferences.dart';
+import 'firebase_options.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
   runApp(MaterialApp(home: Login()));
 }
 
 class Login extends StatefulWidget {
   @override
-  LoginPageState createState() => LoginPageState();
+  _LoginPageState createState() => _LoginPageState();
 }
 
-class LoginPageState extends State<Login> {
-  TextEditingController nicknameController = new TextEditingController();
-  String errorMessage = '';
+class _LoginPageState extends State<Login> {
+  final FirebaseAuth _auth = FirebaseAuth.instance;
 
   Future<void> _login() async {
-    final prefs = await SharedPreferences.getInstance();
-    String storedNickname = prefs.getString('nickname') ?? '';
-
-    if (storedNickname == nicknameController.text) {
-      setState(() {
-        errorMessage = 'This nickname is already in use.';
-      });
-    } else {
-      prefs.setString('nickname', nicknameController.text);
-      setState(() {
-        errorMessage = '';
-      });
+    try {
+      UserCredential userCredential = await _auth.signInAnonymously();
+      if (userCredential.user != null) {
+        print("User ID: ${userCredential.user!.uid}");
+      }
+    } catch (e) {
+      print("Error: $e");
     }
   }
 
@@ -36,20 +36,10 @@ class LoginPageState extends State<Login> {
       appBar: AppBar(
         title: Text('Login'),
       ),
-      body: Padding(
-        padding: const EdgeInsets.all(8.0),
-        child: Column(
-          children: <Widget>[
-            TextField(
-              controller: nicknameController,
-              decoration: InputDecoration(hintText: 'Enter your nickname'),
-            ),
-            ElevatedButton(
-              onPressed: _login,
-              child: Text('Login'),
-            ),
-            Text(errorMessage, style: TextStyle(color: Colors.red)),
-          ],
+      body: Center(
+        child: ElevatedButton(
+          onPressed: _login,
+          child: Text('Login Anonymously'),
         ),
       ),
     );

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "424026517977",
+    "project_id": "logintest-221d3",
+    "storage_bucket": "logintest-221d3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:424026517977:android:1fbc1785579bfbc54a29c8",
+        "android_client_info": {
+          "package_name": "com.example.sabee"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDG_ZulI6ykaewn5pYeyuCpYLSyTdp2buo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
