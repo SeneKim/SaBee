@@ -3,10 +3,17 @@
 import 'package:firebase_core/firebase_core.dart' show FirebaseOptions;
 import 'package:flutter/foundation.dart'
     show defaultTargetPlatform, kIsWeb, TargetPlatform;
-// import 'firebase_options.dart';
 
 /// Default [FirebaseOptions] for use with your Firebase apps.
-
+///
+/// Example:
+/// ```dart
+/// import 'firebase_options.dart';
+/// // ...
+/// await Firebase.initializeApp(
+///   options: DefaultFirebaseOptions.currentPlatform,
+/// );
+/// ```
 class DefaultFirebaseOptions {
   static FirebaseOptions get currentPlatform {
     if (kIsWeb) {
@@ -45,6 +52,7 @@ class DefaultFirebaseOptions {
     messagingSenderId: '424026517977',
     projectId: 'logintest-221d3',
     authDomain: 'logintest-221d3.firebaseapp.com',
+    databaseURL: 'https://logintest-221d3-default-rtdb.firebaseio.com',
     storageBucket: 'logintest-221d3.appspot.com',
     measurementId: 'G-LC57T74ZXE',
   );
@@ -54,6 +62,7 @@ class DefaultFirebaseOptions {
     appId: '1:424026517977:android:1fbc1785579bfbc54a29c8',
     messagingSenderId: '424026517977',
     projectId: 'logintest-221d3',
+    databaseURL: 'https://logintest-221d3-default-rtdb.firebaseio.com',
     storageBucket: 'logintest-221d3.appspot.com',
   );
 
@@ -62,6 +71,7 @@ class DefaultFirebaseOptions {
     appId: '1:424026517977:ios:b595253d8d26a1464a29c8',
     messagingSenderId: '424026517977',
     projectId: 'logintest-221d3',
+    databaseURL: 'https://logintest-221d3-default-rtdb.firebaseio.com',
     storageBucket: 'logintest-221d3.appspot.com',
     iosBundleId: 'com.example.sabee',
   );
