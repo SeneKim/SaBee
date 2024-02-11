@@ -1,17 +1,19 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'firebase_options.dart';
+import '../firebase_options.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
-  runApp(MaterialApp(home: Login()));
+  runApp(const MaterialApp(home: Login()));
 }
 
 class Login extends StatefulWidget {
+  const Login({super.key});
+
   @override
   _LoginPageState createState() => _LoginPageState();
 }
@@ -34,12 +36,12 @@ class _LoginPageState extends State<Login> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Login'),
+        title: const Text('Login'),
       ),
       body: Center(
         child: ElevatedButton(
           onPressed: _login,
-          child: Text('Login Anonymously'),
+          child: const Text('Login Anonymously'),
         ),
       ),
     );
