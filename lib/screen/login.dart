@@ -9,10 +9,12 @@ void main() async {
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
-  runApp(MaterialApp(home: Login()));
+  runApp(const MaterialApp(home: Login()));
 }
 
 class Login extends StatefulWidget {
+  const Login({super.key});
+
   @override
   _LoginPageState createState() => _LoginPageState();
 }

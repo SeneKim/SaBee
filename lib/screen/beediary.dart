@@ -10,9 +10,20 @@ class BeeDiary extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       home: Scaffold(
-        body: TableCalendarScreen(),
+        appBar: AppBar(
+          backgroundColor: const Color(0xFFFFFCF6),
+          title: const Text(
+            '양봉 일지',
+            style: TextStyle(
+              fontSize: 18,
+              fontWeight: FontWeight.w600,
+            ),
+          ),
+          centerTitle: true,
+        ),
+        body: const TableCalendarScreen(),
       ),
     );
   }
@@ -23,9 +34,6 @@ class TableCalendarScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: const Color(0xFFFCC21B),
-      ),
       body: TableCalendar(
         firstDay: DateTime.utc(2024, 1, 1),
         lastDay: DateTime.utc(2030, 12, 31),
