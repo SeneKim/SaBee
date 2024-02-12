@@ -4,10 +4,8 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'screen/home.dart';
-import 'screen/beediary.dart';
+import 'firebase_options.dart';
 import 'screen/gallery.dart';
-import 'screen/alarm.dart';
-
 
 // 백그라운드에서 메시지를 처리하기 위한 핸들러
 Future<void> _firebaseMessagingBackgroundHandler(RemoteMessage message) async {
@@ -23,10 +21,9 @@ void main() async {
   );
 
   // FCM 토큰을 확인하고 데이터베이스에 저장하는 함수 호출
-  // await FirebaseNotificationHandler.initTokenAndSaveToDatabase();
+  await FirebaseNotificationHandler.initTokenAndSaveToDatabase();
   runApp(const MyApp());
 }
-
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
