@@ -13,7 +13,7 @@ void main() async {
 }
 
 class Login extends StatefulWidget {
-  const Login({super.key});
+  const Login({Key? key}) : super(key: key);
 
   @override
   _LoginPageState createState() => _LoginPageState();
@@ -25,7 +25,7 @@ class _LoginPageState extends State<Login> {
   final TextEditingController _nicknameController = TextEditingController();
   Color _borderColor = Color(0xFFD0D0D0);
   bool _showCheckMark = false;
-  bool _isInputValid = true;
+  bool _isInputValid = false;
   bool _nicknameExists = false;
 
   @override
@@ -42,7 +42,15 @@ class _LoginPageState extends State<Login> {
 
   void _resetBorderColor() {
     setState(() {
-      _borderColor = Color(0xFFFF0000);
+      _borderColor = Color(0xFFD0D0D0);
+    });
+  }
+
+  void _validateInput(String value) {
+    setState(() {
+      _showCheckMark = value.length >= 2;
+      _isInputValid = _showCheckMark;
+      _nicknameExists = false;
     });
   }
 
@@ -87,6 +95,7 @@ class _LoginPageState extends State<Login> {
             _resetBorderColor();
             setState(() {
               _nicknameExists = false;
+              _isInputValid = false;
             });
           },
           child: Column(
@@ -108,7 +117,7 @@ class _LoginPageState extends State<Login> {
                           fontSize: 24,
                           fontFamily: 'Pretendard',
                           fontWeight: FontWeight.w600,
-                          height: 0,
+                          height: 1.2, // Adjusted line height
                         ),
                       ),
                     ),
@@ -137,21 +146,13 @@ class _LoginPageState extends State<Login> {
                                     style: TextStyle(color: Color(0xFF2C2C2C)),
                                     cursorColor: Color(0xFF2C2C2C),
                                     onTap: _changeBorderColor,
-                                    onChanged: (value) {
-                                      setState(() {
-                                        _showCheckMark = value.length >= 2;
-                                        _isInputValid = !(value.length == 1 &&
-                                            RegExp(r'[a-zA-Z]')
-                                                .hasMatch(value));
-                                        _nicknameExists =
-                                            false; // Reset the nickname existence status
-                                      });
-                                    },
+                                    onChanged:
+                                        _validateInput, // Changed onChanged to validate input
                                     decoration: InputDecoration(
                                       hintText:
                                           'Please enter your nickname here.',
                                       hintStyle: TextStyle(
-                                        color: Color(0xFFFF0000),
+                                        color: Color(0xFFD0D0D0),
                                         fontSize: 14,
                                         fontFamily: 'Pretendard',
                                         fontWeight: FontWeight.w400,
@@ -178,7 +179,7 @@ class _LoginPageState extends State<Login> {
                           SizedBox(height: 9),
                           if (_nicknameExists)
                             Text(
-                              '* It\'s a nickname already exists.',
+                              '* The user name already exists.',
                               style: TextStyle(
                                 color: Color(0xFFFF1616),
                                 fontSize: 12,
@@ -187,9 +188,11 @@ class _LoginPageState extends State<Login> {
                                 height: 0,
                               ),
                             ),
-                          if (!_isInputValid) // Show the message if input is not valid
+                          if (!_isInputValid &&
+                              _nicknameController.text
+                                  .isNotEmpty) // Show the message if input is not valid and not empty
                             Text(
-                              '* Please enter at least two digits.',
+                              '* At least two digits required.',
                               style: TextStyle(
                                 color: Color(0xFFFF1616),
                                 fontSize: 12,
@@ -222,22 +225,17 @@ class _LoginPageState extends State<Login> {
                               borderRadius: BorderRadius.circular(40),
                             ),
                           ),
-                          child: Column(
-                            mainAxisSize: MainAxisSize.min,
-                            mainAxisAlignment: MainAxisAlignment.start,
-                            crossAxisAlignment: CrossAxisAlignment.center,
-                            children: [
-                              Text(
-                                'Start',
-                                style: TextStyle(
-                                  color: Colors.white,
-                                  fontSize: 16,
-                                  fontFamily: 'Pretendard',
-                                  fontWeight: FontWeight.w600,
-                                  height: 0,
-                                ),
+                          child: Center(
+                            child: Text(
+                              'Go',
+                              style: TextStyle(
+                                color: Colors.white,
+                                fontSize: 16,
+                                fontFamily: 'Pretendard',
+                                fontWeight: FontWeight.w600,
+                                height: 0,
                               ),
-                            ],
+                            ),
                           ),
                         ),
                       ),
