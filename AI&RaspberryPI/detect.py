@@ -40,9 +40,12 @@ import firebase_admin
 from firebase_admin import credentials
 from firebase_admin import storage
 
-cred = credentials.Certificate("firebase-adminsdk.json")
+
+# firebase admin
+# For firebase security, We deleted firebase admin file name here
+cred = credentials.Certificate("firebase admin file name")
 firebase_admin.initialize_app(cred, {
-'storageBucket' : 'logintest-221d3.appspot.com'})
+'storageBucket' : 'Team Sabee'})
 
 FILE = Path(__file__).resolve()
 ROOT = FILE.parents[0]  # YOLOv5 root directory
