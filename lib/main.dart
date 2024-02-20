@@ -5,6 +5,7 @@ import 'package:firebase_messaging/firebase_messaging.dart';
 import 'screen/alarm.dart';
 import 'screen/home.dart';
 import 'firebase_options.dart';
+import "screen/gallery.dart";
 
 // 백그라운드에서 메시지를 처리하기 위한 핸들러
 Future<void> _firebaseMessagingBackgroundHandler(RemoteMessage message) async {
@@ -33,7 +34,7 @@ class MyApp extends StatelessWidget {
     notificationService.initialize();
 
     return const MaterialApp(
-      home: MyHome(),
+      home: MyGallery(),
     );
   }
 }

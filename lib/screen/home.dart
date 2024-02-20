@@ -48,14 +48,15 @@ class MyHome extends StatelessWidget {
                         left: 22,
                         top: 255,
                         child: Text(
-                          '루이님,\n실시간으로 편하게\n꿀벌을 지켜보세요.',
+                          'Moonlight02,\nKeep an eye on your\nHoneybee in real time\nwith ease.',
                           style: TextStyle(
                             color: Colors.white,
                             fontSize: 24,
                             fontFamily: 'Pretendard',
-                            fontWeight: FontWeight.w600,
-                            height: 0,
-                            letterSpacing: 0.48,
+                            fontWeight: FontWeight.w500,
+                            height: 1,
+                            letterSpacing: 0.2,
+                            wordSpacing: 2.0,
                           ),
                         ),
                       ),
@@ -99,9 +100,10 @@ class MyHome extends StatelessWidget {
                         ),
                       ),
                       Positioned(
-                        left: 68,
+                        left: 40,
                         top: 419,
                         child: Container(
+                          height: 43,
                           padding: const EdgeInsets.symmetric(
                               horizontal: 60, vertical: 12),
                           clipBehavior: Clip.antiAlias,
@@ -124,8 +126,11 @@ class MyHome extends StatelessWidget {
                             mainAxisAlignment: MainAxisAlignment.start,
                             crossAxisAlignment: CrossAxisAlignment.center,
                             children: [
+                              SizedBox(
+                                height: 10,
+                              ),
                               Text(
-                                '검출 영상 보러가기',
+                                'Go to Detection Gallery',
                                 style: TextStyle(
                                   color: Colors.white,
                                   fontSize: 16,
@@ -146,7 +151,7 @@ class MyHome extends StatelessWidget {
                           height: 576,
                           decoration: const BoxDecoration(
                             image: DecorationImage(
-                              image: AssetImage('assets/mainframe1.png'),
+                              image: AssetImage('assets/mainframe1_eng.png'),
                               fit: BoxFit.cover,
                             ),
                           ),
@@ -197,7 +202,7 @@ class MyHome extends StatelessWidget {
                           height: 434,
                           decoration: const BoxDecoration(
                             image: DecorationImage(
-                              image: AssetImage('assets/mainframe2.png'),
+                              image: AssetImage('assets/mainframe2_eng.png'),
                               fit: BoxFit.cover,
                             ),
                           ),
