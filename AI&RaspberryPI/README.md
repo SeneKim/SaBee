@@ -12,7 +12,8 @@ Our training details are as follows:
 - learning rate:
 - batch size:
 - dataset size:
-- 
+
+  
 <br>
 
 
@@ -21,10 +22,12 @@ Our training details are as follows:
 Hornet is detected through a Raspberry Pi connected to a webcam, and the detected images are uploaded to 'Firebase Storage' connected to the Raspberry Pi. When hornet is detected, a notification is sent to Android using ‘Realtime Database’ and ‘Firebase Cloud Message’, and a photo capturing the hornet can be displayed on Android.
 
 Therefore, when hornet is detected, you can check a notification message and an image capturing the hornet on Android.
+
 <br>
 
 ## Equipment used (Hardware)
 Hardware Informations
+<br>
 <hr>
 
 <table>
@@ -43,6 +46,7 @@ Hardware Informations
     </td>
   </tr>
 </table>
+
 <br>
 
 ## Tools 
