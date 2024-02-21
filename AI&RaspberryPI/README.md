@@ -1,4 +1,4 @@
-### 🤖 About Sabee's AI Model and Raspberry PI - 🐝The Hornet Detector
+# 🤖 About Sabee's AI Model and Raspberry PI - 🐝The Hornet Detector
 
 This is a Raspberry Pi-based application with hornet detection function for protecting bees from hornets.
 
