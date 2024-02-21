@@ -47,6 +47,15 @@ python3 detect.py --weights best.pt --source 0 --conf 0.7
 ```
 
 ## Demo
-![image](https://github.com/SeneKim/Sabee/assets/109735494/e64ef9d0-bc88-4822-b47d-20c82afa31fc)
+<table>
+  <tr>
+    <td>![image](https://github.com/SeneKim/Sabee/assets/109735494/e64ef9d0-bc88-4822-b47d-20c82afa31fc)</td>
+    <td>
+      ![image](https://github.com/SeneKim/Sabee/assets/109735494/ab907ebe-8518-4a58-a69d-14dfcc49c762)
+
+    </td>
+  </tr>
+</table>
+
 
 
