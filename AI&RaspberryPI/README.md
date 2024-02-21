@@ -3,6 +3,7 @@
 This is a Raspberry Pi-based application with hornet detection function for protecting bees from hornets.
 
 <br>
+
 ## How it works
 
 Hornet is detected through a Raspberry Pi connected to a webcam, and the detected images are uploaded to 'Firebase Storage' connected to the Raspberry Pi. When hornet is detected, a notification is sent to Android using ‘Realtime Database’ and ‘Firebase Cloud Message’, and a photo capturing the hornet can be displayed on Android.
@@ -34,6 +35,7 @@ Information
 - Putty
 - RealVNC Viewer
 <br>
+
 ## Step
 
 1. Turn on the raspberry pie connected to the camera and clone yolov5. 
@@ -48,12 +50,13 @@ python3 detect.py --weights best.pt --source 0 --conf 0.7
 
 ```
 <br>
+
 ## Demo
 <table>
   <tr>
-    <td> <img width="300" alt="image" src ="https://github.com/SeneKim/Sabee/assets/109735494/e64ef9d0-bc88-4822-b47d-20c82afa31fc"></td>
+    <td> <img width="420" alt="image" src ="https://github.com/SeneKim/Sabee/assets/109735494/e64ef9d0-bc88-4822-b47d-20c82afa31fc"></td>
     <td>
-       <img width="300" alt="image" src="https://github.com/SeneKim/Sabee/assets/109735494/ab907ebe-8518-4a58-a69d-14dfcc49c762>"</td>
+       <img width="420" alt="image" src="https://github.com/SeneKim/Sabee/assets/109735494/ab907ebe-8518-4a58-a69d-14dfcc49c762>"</td>
   </tr>
 </table>
 
