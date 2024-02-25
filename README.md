@@ -127,7 +127,10 @@ Sabee는 지구의 생태계를 유지할 수 있게 하는 중요한 일꾼인 
 
 ## 🐝 Demo Video
 
-https://youtu.be/FAPct8q5v2M?si=sGGQGjQMy1iM84jy
+🔗 https://youtu.be/FAPct8q5v2M?si=sGGQGjQMy1iM84jy
+
+
+<br>
 
 ## 🐝 Feature
 
@@ -171,4 +174,6 @@ Install a Raspberry Pi with camera at the entrance of the beehive and detect hor
 
 ## How it works?
 If you want to try running our project, you can run the files in the 'lib' folder.
+Running the 'main.dart' file in this folder using VS Code will activate our Gallery screen. 
+If your camera detects bees, you can view the captured bee images on that page!
 The operation method of our project's core AI model is documented in the README file within the "AI & Raspberry Pi" folder.
