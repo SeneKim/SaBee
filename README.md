@@ -146,7 +146,12 @@ https://youtu.be/FAPct8q5v2M?si=sGGQGjQMy1iM84jy
 
 ### ***Detail Page Images***
 
-**Login and see onboarding pages** 
+
+
+**Login and Bee Diary**
+You can access the application simply by entering your nickname.
+Additionally, we provide a feature called "Bee Diary", allowing you to record information about beekeeping every day.
+
 <img width="1075" alt="%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2024-02-21_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_11 04 54" src="https://github.com/SeneKim/Sabee/assets/109735494/0c54ab1a-0d3f-4ae1-99f6-39aa8cd60fa5">
 
 
@@ -162,10 +167,8 @@ Install a Raspberry Pi with camera at the entrance of the beehive and detect hor
 <img width="1075" alt="%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2024-02-21_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_11 14 56" src="https://github.com/SeneKim/Sabee/assets/109735494/30a0bc35-fbd2-43aa-9648-d2339fb66468">
 
 
-**Bee Diary**
-Record bee-related tasks throughout the day to assist in beekeeping.
-
 <br>
 
 ## How it works?
-If you want 
+If you want to try running our project, you can run the files in the 'lib' folder.
+The operation method of our project's core AI model is documented in the README file within the "AI & Raspberry Pi" folder.
