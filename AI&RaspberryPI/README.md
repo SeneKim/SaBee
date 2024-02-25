@@ -9,7 +9,7 @@ This is a Raspberry Pi-based application with hornet detection function for prot
 Our model was trained on a hornet dataset using the Yolov5 model. The reason we chose Yolov5 is firstly because it is a very famous model in object detection, and secondly, we needed a model with fast detection speed for real-time detection. 
 
 Our training details are as follows:
-- frameworks: Pytorch
+- framework: Pytorch
 - epochs: 150
 - learning rate: 0.01
 - batch size: 16
