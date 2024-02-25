@@ -15,7 +15,7 @@
         <td>Major</td>
         <td>Tasks</td>
         <td>Role</td>
-        <td>Contect</td>
+        <td>GitHub</td>
     </tr>
     <tr>
         <td>Kim Se Hee</td>
