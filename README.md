@@ -9,9 +9,17 @@
 <table>
     <tr>
         <td>Name</td><td>Major</td><td>Tasks</td><td>Role</td><td>Contect></td>
+    </tr>
+    <tr>
         <td>Kim Se Hee</td><td>Software Convergence</td><td>Application Development, Raspberry Pi, AI</td><td>PM</td><td>https://github.com/SeneKim</td>
+    </tr>
+
+    <tr>
         <td>Kim Ji Hyeon</td><td>Industrial Design</td><td>UI/UX Design</td><td>PA</td><td> - </td>
+    </tr>
         <td>Lee Yoon Seo</td><td>Business & Data science</td><td>AI</td><td>PA</td><td>https://github.com/2ynnso/datascience_of_economics></td>
+
+        <tr>
         <td>Lee Hyeon JI</td><td>Software Convergence</td><td>Application Development</td><td>PA</td><td> https://github.com/Hyjii></td>
         
     </tr>
