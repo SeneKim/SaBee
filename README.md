@@ -60,6 +60,8 @@ If honeybees were to become extinct on our planet, it would have immediate effec
 
 To address this issue, we have developed an app called Sabee, which monitors honeybees by detecting threats such as hornets and mites. When predators are detected via camera, alerts are sent to beekeepers, and immediate photos are taken. These photos can be viewed through the application, and in addition to alerts and photos, beekeepers can also keep detailed records of beekeeping activities through the app. Our service provides an efficient means for beekeepers to detect predators even when they are away, enabling prompt action upon detection.
 
+<br>
+
 ‘꿀벌이 멸종되면 인류도 4년 이내에 사라질 것이다.’ 라는 아이슈타인의 말처럼, 꿀벌은 세계적으로 무척 중요한 곤충입니다. 꿀벌이 만들어 내는 꿀은 인간의 식품과 의약품 생산에 기여하며 꿀벌은 세계적으로 식물의 수분과 영양분을 전달하는 데 매우 중요한 역할을 하고 있습니다.  그러나 한국에서는 심각한 꿀벌의 개체 수 감소 사례가 보고되었고 이는 비단 한국 뿐만 아닌 세계적으로 발생하고 있는 현상이었습니다. 이 현상의 원인으로는 농약 사용, 꿀벌의 생명을 위협하는 병해충의 증가를 꼽고 있습니다.
 
 이러한 꿀벌이 우리 지구상에서 멸종 되게 된다면, 일차적으로 열매와 같은 인간의 식량, 이차적으로는 인간의 식량인 소, 돼지, 닭 등 가축의 먹이도 소멸되게 될 것입니다. 이는 인류에게 극심한 식량난과 영양부족을 초래할 뿐만 아니라 식량 재배의 경제적 가치또한 하락하여 연간 142만 명이 사망할 수 있다는 연구결과도 있습니다. 
@@ -70,19 +72,23 @@ To address this issue, we have developed an app called Sabee, which monitors hon
 
 ## 🐝 Our Goal
 
-<img width="425" alt="%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2024-02-20_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_10 17 21" src="https://github.com/SeneKim/Sabee/assets/109735494/3691be71-623b-48bc-ab7f-963b06570265">
+<img width="1075" alt="%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2024-02-20_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_10 17 21" src="https://github.com/SeneKim/Sabee/assets/109735494/3691be71-623b-48bc-ab7f-963b06570265">
 
+<br><br>
 
+### Our team chose two UN sustainable Development Goals.
 
-Our team chose two UN sustainable Development Goals.
-
-SDG 12 : **Responsible Consumption & Production**  and SDG 15 : **Life on Land**. 
+🤎 SDG 12 : **Responsible Consumption & Production**  
+💚 SDG 15 : **Life on Land**. 
 
 1. By saving honeybees that play a critical role in agricultural ecosystems, humans and livestock will be protected from food shortages and undernourishment. 
 
 2. It will maintain the Earth's ecosystem by preventing the population of honeybees from decreasing, which are acting as pollinators.
 
 Sabee plays a crucial role in protecting honeybees, vital workers for maintaining the Earth's ecosystems. By promptly detecting threats such as hornets and mites, which pose risks to honeybees, and alerting beekeepers, Sabee can contribute to honeybee conservation. Honeybees form colonies, so if even one individual is infected with pests or diseases, there's a high likelihood of spreading throughout the colony. Therefore, by conducting honeybee monitoring through Sabee, we can protect honeybees from pests and diseases, thus contributing to the preservation and maintenance of ecosystems.
+
+<br>
+
 
 1. 농업 생태계에 아주 중요한 역할을 하는 꿀벌을 구하여, 인간과 가축을 식량난과 영양부족으로 부터 보호 할 것이다.
    
@@ -97,28 +103,31 @@ Sabee는 지구의 생태계를 유지할 수 있게 하는 중요한 일꾼인 
 <img width="1075" alt="%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2024-02-21_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_10 29 08" src="https://github.com/SeneKim/Sabee/assets/109735494/91b87ecd-1028-4d86-b732-c5b39600024c">
 
 
-### *Google*
+### 🖥️*Google Technology*
 
 **Dart, Flutter, Firebase**
 
-### ***Technical STACK***
+<br>
 
-Frontend: Flutter
 
-AI Model: Yolov5
+### 💻***Technical STACK***
 
-Database: Firebase
+- Frontend: Flutter
 
-UI/UX : Figma
+- AI Model: Yolov5
+
+- Database: Firebase
+
+- UI/UX : Figma
 
 <img width="581" alt="%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2024-02-21_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_9 33 40" src="https://github.com/SeneKim/Sabee/assets/109735494/b30ac5fe-b177-498c-9aff-5ffdaa709658">
+
+<br>
 
 
 ## 🐝 Demo Video
 
-
-
-< 비디오 영상> or < link > 
+https://youtu.be/FAPct8q5v2M?si=sGGQGjQMy1iM84jy
 
 ## 🐝 Feature
 
@@ -138,34 +147,25 @@ UI/UX : Figma
 ### ***Detail Page Images***
 
 **Login and see onboarding pages** 
-<img width="796" alt="%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2024-02-21_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_11 04 54" src="https://github.com/SeneKim/Sabee/assets/109735494/0c54ab1a-0d3f-4ae1-99f6-39aa8cd60fa5">
+<img width="1075" alt="%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2024-02-21_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_11 04 54" src="https://github.com/SeneKim/Sabee/assets/109735494/0c54ab1a-0d3f-4ae1-99f6-39aa8cd60fa5">
 
 
-<img width="629" alt="%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2024-02-21_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_11 10 13" src="https://github.com/SeneKim/Sabee/assets/109735494/617262e6-7764-44db-b69a-f4662d3cb321">
+<img width="1075" alt="%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2024-02-21_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_11 10 13" src="https://github.com/SeneKim/Sabee/assets/109735494/617262e6-7764-44db-b69a-f4662d3cb321">
 
 <br>
 
 **Detection Gallery** 
 
-벌통 입구와 바닥에 카메라를 설치하고 Ai model을 통해 말벌과 응애를 감지합니다. 
+Install a Raspberry Pi with camera at the entrance of the beehive and detect hornets using an AI model.
+"This can be monitored in real-time on the screen below."
 
-이는 실시간으로 
-
-<img width="698" alt="%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2024-02-21_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_11 14 56" src="https://github.com/SeneKim/Sabee/assets/109735494/30a0bc35-fbd2-43aa-9648-d2339fb66468">
+<img width="1075" alt="%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2024-02-21_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_11 14 56" src="https://github.com/SeneKim/Sabee/assets/109735494/30a0bc35-fbd2-43aa-9648-d2339fb66468">
 
 
-1. 검출 갤러리 ** 최대한 자세히 
-    
-    벌통 입구와 바닥에 라즈베리 파이를 설치하고 Ai model을 통해 말벌과 응애를 감지합니다. 양봉업자들이 자리를 비울 때도 꿀벌의 천적을 검출할 수 있는 효율적인 서비스로, 실시간으로 카메라에 카메라에 말벌이나 진드기가 검출되면 검출 갤러리에 사진으로 저장이 됩니다. 양봉업자는 이 갤러리를 통해서 검출된 천적들을 확인하여 벌통을 관리할 수 있습니다. 
-    
-2. 실시간 알람 
-    
-    카메라로 말벌이랑 
-    
-3. 양봉일지  
+**Bee Diary**
+Record bee-related tasks throughout the day to assist in beekeeping.
 
-# **Execution Method**
+<br>
 
-# 📹 Our Application Video
-https://youtu.be/FAPct8q5v2M?si=sGGQGjQMy1iM84jy
-
+## How it works?
+If you want 
