@@ -5,7 +5,7 @@ This is a Raspberry Pi-based application with hornet detection function for prot
 
 <br>
 
-##⏩ AI Model - Yolo
+## ⏩ AI Model - Yolo
 Our model was trained on a hornet dataset using the Yolov5 model. The reason we chose Yolov5 is firstly because it is a very famous model in object detection, and secondly, we needed a model with fast detection speed for real-time detection. 
 
 Our training details are as follows:
@@ -19,7 +19,7 @@ Our training details are as follows:
 <br>
 
 
-##❓ How it works
+## ❓ How it works
 
 Hornet is detected through a Raspberry Pi connected to a webcam, and the detected images are uploaded to 'Firebase Storage' connected to the Raspberry Pi. When hornet is detected, a notification is sent to Android using ‘Realtime Database’ and ‘Firebase Cloud Message’, and a photo capturing the hornet can be displayed on Android.
 
@@ -27,7 +27,7 @@ Therefore, when hornet is detected, you can check a notification message and an 
 
 <br>
 
-##🖥️ Equipment used (Hardware)
+## 🖥️ Equipment used (Hardware)
 #### Hardware Informations
 <br>
 <hr>
@@ -51,13 +51,13 @@ Therefore, when hornet is detected, you can check a notification message and an 
 
 <br>
 
-##🔨 Tools 
+## 🔨 Tools 
 
 - Putty
 - RealVNC Viewer
 <br>
 
-##⬆️ Step
+## ⬆️ Step
 
 1. Turn on the raspberry pie connected to the camera and clone yolov5. 
 
@@ -72,7 +72,7 @@ python3 detect.py --weights best.pt --source 0 --conf 0.7
 ```
 <br>
 
-##🖼️ Demo
+## 🖼️ Demo
 <table>
   <tr>
     <td> <img width="420" alt="image" src ="https://github.com/SeneKim/Sabee/assets/109735494/e64ef9d0-bc88-4822-b47d-20c82afa31fc"></td>
