@@ -11,7 +11,7 @@
 ## 👩‍🎓 Our Team
 <table>
     <tr>
-        <td>Name</td>
+        <td>Name(Last - First name)</td>
         <td>Major</td>
         <td>Tasks</td>
         <td>Role</td>
