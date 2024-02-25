@@ -3,7 +3,10 @@
 🏫 The Second GDSC SWU Solution Challenge.
 
 
-<img width="1020" alt="%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2024-02-21_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_5 06 43" src="https://github.com/SeneKim/Sabee/assets/109735494/1495725a-84a5-4350-8319-8b99d62a906e">
+<img width="1075" alt="%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2024-02-21_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_5 06 43" src="https://github.com/SeneKim/Sabee/assets/109735494/1495725a-84a5-4350-8319-8b99d62a906e">
+
+<br>
+
 
 ## 👩‍🎓 Our Team
 <table>
@@ -12,7 +15,7 @@
         <td>Major</td>
         <td>Tasks</td>
         <td>Role</td>
-        <td>Contect></td>
+        <td>Contect</td>
     </tr>
     <tr>
         <td>Kim Se Hee</td>
@@ -21,7 +24,6 @@
         <td>PM</td>
         <td>https://github.com/SeneKim</td>
     </tr>
-
     <tr>
         <td>Kim Ji Hyeon</td>
         <td>Industrial Design</td>
@@ -29,7 +31,6 @@
         <td>PA</td>
         <td> - </td>
     </tr>
-
     <tr>
         <td>Lee Yoon Seo</td>
         <td>Business & Data science</td>
@@ -42,18 +43,16 @@
         <td>Software Convergence</td>
         <td>Application Development</td>
         <td>PA</td>
-        <td>https://github.com/Hyjii></td>
-        
+        <td>https://github.com/Hyjii</td>
     </tr>
 </table>
 
 
-
+<br>
 
 
 ## 🐝 Project introduction
 
----
 
 As Einstein once said, 'If the bee disappeared off the face of the Earth, man would only have four years left to live.' Honeybees are indeed incredibly important insects worldwide. The honey they produce contributes to human food and medicine production, and they play a vital role in transferring moisture and nutrients to plants globally. However, serious declines in honeybee populations have been reported in Korea and globally. Causes include pesticide use and increasing threats from pests and diseases that endanger honeybee lives.
 
@@ -85,16 +84,18 @@ SDG 12 : **Responsible Consumption & Production**  and SDG 15 : **Life on Land**
 
 Sabee plays a crucial role in protecting honeybees, vital workers for maintaining the Earth's ecosystems. By promptly detecting threats such as hornets and mites, which pose risks to honeybees, and alerting beekeepers, Sabee can contribute to honeybee conservation. Honeybees form colonies, so if even one individual is infected with pests or diseases, there's a high likelihood of spreading throughout the colony. Therefore, by conducting honeybee monitoring through Sabee, we can protect honeybees from pests and diseases, thus contributing to the preservation and maintenance of ecosystems.
 
-1. 농업 생태계에 아주 중요한 역할을 하는 꿀벌을 구하여, 인간과 가축을 식량난과 영양부족으로 부터 보호 할 것이다. 
+1. 농업 생태계에 아주 중요한 역할을 하는 꿀벌을 구하여, 인간과 가축을 식량난과 영양부족으로 부터 보호 할 것이다.
+   
 2. 화분매개자의 역할을 수행하고 있는 꿀벌의 개체 수 감소를 막아 지구의 생태계를 유지할 것이다.
 
 Sabee는 지구의 생태계를 유지할 수 있게 하는 중요한 일꾼인 꿀벌을 보호하기 위해 꿀벌을 위협하는 말벌과 진드기를 조기에 발견하고 양봉업자에게 알림을 전송하여 꿀벌 보호에 기여할 수 있습니다.  꿀벌은 군집을 이루므로 한 개체라도 병충해에 감염됐다면 확산되었을 가능성이 매우 높습니다. 따라서 Sabee를 통해 꿀벌 모니터링을 진행하여  병충해로부터 ***꿀벌을 보호함으로써 생태계 유지 및 보존에 기여할 수 있습니다.*** 
 
+
+<br>
+
 ## 🐝 Project Architecture & Used technology
+<img width="1075" alt="%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2024-02-21_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_10 29 08" src="https://github.com/SeneKim/Sabee/assets/109735494/91b87ecd-1028-4d86-b732-c5b39600024c">
 
----
-
-![스크린샷 2024-02-21 오후 10.29.08.png](README%2026369de87a714030958877f4a5c3875e/%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA_2024-02-21_%25E1%2584%258B%25E1%2585%25A9%25E1%2584%2592%25E1%2585%25AE_10.29.08.png)
 
 ### *Google*
 
@@ -110,35 +111,39 @@ Database: Firebase
 
 UI/UX : Figma
 
-![스크린샷 2024-02-21 오후 9.33.40.png](README%2026369de87a714030958877f4a5c3875e/%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA_2024-02-21_%25E1%2584%258B%25E1%2585%25A9%25E1%2584%2592%25E1%2585%25AE_9.33.40.png)
+<img width="581" alt="%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2024-02-21_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_9 33 40" src="https://github.com/SeneKim/Sabee/assets/109735494/b30ac5fe-b177-498c-9aff-5ffdaa709658">
+
 
 ## 🐝 Demo Video
 
----
+
 
 < 비디오 영상> or < link > 
 
 ## 🐝 Feature
 
----
 
 ### *Customer App Feature Overview*
 
-![스크린샷 2024-02-21 오후 10.43.28.png](README%2026369de87a714030958877f4a5c3875e/%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA_2024-02-21_%25E1%2584%258B%25E1%2585%25A9%25E1%2584%2592%25E1%2585%25AE_10.43.28.png)
+<img width="1075" alt="%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2024-02-21_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_10 43 28" src="https://github.com/SeneKim/Sabee/assets/109735494/4ebb20e0-e224-4897-a5ce-8ee981aa35c6">
 
-![스크린샷 2024-02-21 오후 10.52.44.png](README%2026369de87a714030958877f4a5c3875e/%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA_2024-02-21_%25E1%2584%258B%25E1%2585%25A9%25E1%2584%2592%25E1%2585%25AE_10.52.44.png)
+<img width="1075" alt="%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2024-02-21_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_10 52 44" src="https://github.com/SeneKim/Sabee/assets/109735494/5e70e92c-d428-454c-993a-5c3ebb8c7e4c">
 
-![스크린샷 2024-02-21 오후 10.50.38.png](README%2026369de87a714030958877f4a5c3875e/%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA_2024-02-21_%25E1%2584%258B%25E1%2585%25A9%25E1%2584%2592%25E1%2585%25AE_10.50.38.png)
+<img width="1075" alt="%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2024-02-21_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_10 50 38" src="https://github.com/SeneKim/Sabee/assets/109735494/4944f513-1f3e-48f1-9fc5-54ff3763975f">
 
-![스크린샷 2024-02-21 오후 10.51.12.png](README%2026369de87a714030958877f4a5c3875e/%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA_2024-02-21_%25E1%2584%258B%25E1%2585%25A9%25E1%2584%2592%25E1%2585%25AE_10.51.12.png)
+<img width="1075" alt="%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2024-02-21_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_10 51 12" src="https://github.com/SeneKim/Sabee/assets/109735494/12e00e8c-7b8d-45c2-9c71-5d6740dd16d0">
+
+<br>
 
 ### ***Detail Page Images***
 
 **Login and see onboarding pages** 
+<img width="796" alt="%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2024-02-21_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_11 04 54" src="https://github.com/SeneKim/Sabee/assets/109735494/0c54ab1a-0d3f-4ae1-99f6-39aa8cd60fa5">
 
-![스크린샷 2024-02-21 오후 11.04.54.png](README%2026369de87a714030958877f4a5c3875e/%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA_2024-02-21_%25E1%2584%258B%25E1%2585%25A9%25E1%2584%2592%25E1%2585%25AE_11.04.54.png)
 
-![스크린샷 2024-02-21 오후 11.10.13.png](README%2026369de87a714030958877f4a5c3875e/%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA_2024-02-21_%25E1%2584%258B%25E1%2585%25A9%25E1%2584%2592%25E1%2585%25AE_11.10.13.png)
+<img width="629" alt="%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2024-02-21_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_11 10 13" src="https://github.com/SeneKim/Sabee/assets/109735494/617262e6-7764-44db-b69a-f4662d3cb321">
+
+<br>
 
 **Detection Gallery** 
 
@@ -146,7 +151,8 @@ UI/UX : Figma
 
 이는 실시간으로 
 
-![스크린샷 2024-02-21 오후 11.14.56.png](README%2026369de87a714030958877f4a5c3875e/%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA_2024-02-21_%25E1%2584%258B%25E1%2585%25A9%25E1%2584%2592%25E1%2585%25AE_11.14.56.png)
+<img width="698" alt="%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2024-02-21_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_11 14 56" src="https://github.com/SeneKim/Sabee/assets/109735494/30a0bc35-fbd2-43aa-9648-d2339fb66468">
+
 
 1. 검출 갤러리 ** 최대한 자세히 
     
@@ -159,4 +165,7 @@ UI/UX : Figma
 3. 양봉일지  
 
 # **Execution Method**
+
+# 📹 Our Application Video
+https://youtu.be/FAPct8q5v2M?si=sGGQGjQMy1iM84jy
 
