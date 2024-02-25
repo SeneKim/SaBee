@@ -172,7 +172,7 @@ Install a Raspberry Pi with camera at the entrance of the beehive and detect hor
 
 <br>
 
-## How it works?
+##❓ How it works?
 If you want to try running our project, you can run the files in the 'lib' folder.
 Running the 'main.dart' file in this folder using VS Code will activate our Gallery screen. 
 If your camera detects bees, you can view the captured bee images on that page!
