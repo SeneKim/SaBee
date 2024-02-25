@@ -2,7 +2,23 @@
 ## 🍯 The Bee Protector from hornets
 🏫 The Second GDSC SWU Solution Challenge.
 
+
 <img width="1020" alt="%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2024-02-21_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_5 06 43" src="https://github.com/SeneKim/Sabee/assets/109735494/1495725a-84a5-4350-8319-8b99d62a906e">
+
+## 👩‍🎓 Our Team
+<table>
+    <tr>
+        <td>Name</td><td>Major</td><td>Tasks</td><td>Role</td><td>Contect></td>
+        <td>Kim Se Hee</td><td>Software Convergence</td><td>Application Development, Raspberry Pi, AI</td><td>PM</td><td>https://github.com/SeneKim</td>
+        <td>Kim Ji Hyeon</td><td>Industrial Design</td><td>UI/UX Design</td><td>PA</td><td> - </td>
+        <td>Lee Yoon Seo</td><td>Business & Data science</td><td>AI</td><td>PA</td><td>https://github.com/2ynnso/datascience_of_economics></td>
+        <td>Lee Hyeon JI</td><td>Software Convergence</td><td>Application Development</td><td>PA</td><td> https://github.com/Hyjii></td>
+        
+    </tr>
+</table>
+
+
+
 
 
 ## 🐝 Project introduction
@@ -21,11 +37,13 @@ To address this issue, we have developed an app called Sabee, which monitors hon
 
 우리는 이 문제를 해결하기 위해 말벌과 진드기를 감지함으로 꿀벌을 모니터링할 수 있는 앱인 Sabee를 개발하였습니다.  꿀벌의 천적이 카메라로 부터 검출되면 양봉업자에게 알림이 발송되고 즉시 사진이 촬영됩니다. 찰영된 사진은 Application을 통해 확인할 수 있고 알림과 사진 이외에도 양봉일지를 작성함으로써 꿀벌 양봉에 대한 사항을 상세하게 기록할 수 있습니다. 우리의 서비스는 양봉업자들이 자리를 비울 때에도 천적을 검출할 수 있는 효율적인 수단으로, 발견 시 신속한 조치를 취할 수 있도록 도와줄 것입니다. 
 
+<br>
+
 ## 🐝 Our Goal
 
----
+<img width="425" alt="%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2024-02-20_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_10 17 21" src="https://github.com/SeneKim/Sabee/assets/109735494/3691be71-623b-48bc-ab7f-963b06570265">
 
-![스크린샷 2024-02-20 오후 10.17.21.png](README%2026369de87a714030958877f4a5c3875e/%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA_2024-02-20_%25E1%2584%258B%25E1%2585%25A9%25E1%2584%2592%25E1%2585%25AE_10.17.21.png)
+
 
 Our team chose two UN sustainable Development Goals.
 
@@ -112,22 +130,3 @@ UI/UX : Figma
 
 # **Execution Method**
 
----
-
-# Ai 리드미
-
----
-
-- ai 학습 사항.
-- 왜 이 모델 썼는지 → 레퍼런스 잘 나와서
-- 데이터셋 수집 경로
-- 몇천장
-- 추가한 학습법
-- 몇 에폭으로 했는지 등등
-
-- 기술보다는 아이디어에 치중해서 작성
-
-- 소스
-- 서비스 소개
-- 서비스 기획 의도
--
